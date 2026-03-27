@@ -16,7 +16,7 @@ feature_row:
     url: /projects/shrinking-lake/
     btn_label: "View Project"
     btn_class: "btn--primary"
-  - image_path: /assets/images/trip-animation-cover.jpg
+  - image_path: /assets/images/trip-animation-cover.png
     alt: "Trip animation project"
     title: "Trip Animation"
     excerpt: "A spatiotemporal visualization pipeline using PostGIS, Python, and GeoPandas."
