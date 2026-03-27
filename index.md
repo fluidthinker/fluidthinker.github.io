@@ -9,7 +9,7 @@ header:
 intro:
   - excerpt: "I build geospatial data workflows and environmental analysis tools using Python, GIS, remote sensing, and spatial databases."
 feature_row:
-  - image_path: /assets/images/shrinking-lake-cover.jpg
+  - image_path: /assets/images/shrinking-reservoir-cover.png
     alt: "Shrinking Lake project"
     title: "Shrinking Lake Monitor"
     excerpt: "A remote sensing workflow for tracking surface water change over time."
@@ -31,14 +31,7 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 
-feature_row2:
-  - image_path: /assets/images/tornado-cover.jpg
-    alt: "Tornado project"
-    title: "Tornado Work"
-    excerpt: "A project focused on spatial patterns, interpretation, and communication."
-    url: /projects/tornado/
-    btn_label: "View Project"
-    btn_class: "btn--primary"
+
 ---
 
 ## About this portfolio
