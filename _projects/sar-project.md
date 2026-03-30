@@ -45,7 +45,7 @@ The goal was to design an open-source workflow that enables pre/post comparison 
   </tr>
   <tr>
     <td>
-      <img src="/assets/images/pre_rg_shared.png" alt="Pre-event SAR composite" width="420">
+      <img src="/assets/images/pre_rgb_shared.png" alt="Pre-event SAR composite" width="420">
     </td>
     <td>
       <img src="/assets/images/sars-cover.jpg" alt="Post-event SAR composite" width="420">
