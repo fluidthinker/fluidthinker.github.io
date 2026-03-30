@@ -52,12 +52,15 @@ The goal was to design an open-source workflow that enables pre/post comparison 
     </td>
   </tr>
 </table>
-
 ### Interpreting the Results
 
-**Context:** This comparison highlights flooding impacts from **Hurricane Harvey (2017)** near **Freeport, Texas** using Sentinel-1 SAR imagery.
+#### Context
 
-**Data:** Sentinel-1 SAR (VV/VH composite, shared stretch applied to both images)
+This comparison highlights flooding impacts from Hurricane Harvey (2017) near Freeport, Texas using Sentinel-1 SAR imagery.
+
+#### Data
+
+Sentinel-1 SAR (VV/VH composite, shared stretch applied to both images)
 
 ---
 
@@ -72,8 +75,15 @@ The goal was to design an open-source workflow that enables pre/post comparison 
 #### What to look for
 
 - Focus on **coastal and low-lying areas** between the two images  
-- In the **post-event image**, notice the **increase in purple-toned regions**  
-- These areas reflect **changes in surface conditions**, consistent with flooding after Hurricane Harvey  
+- In the post-event image, notice the **increase in purple-toned regions**  
+- These areas reflect changes in surface conditions, consistent with flooding after Hurricane Harvey  
+
+---
+
+#### Key takeaway
+
+The post-event image shows expanded areas of radar backscatter variation along the coastline near Freeport, Texas, indicating flooding and surface water change following Hurricane Harvey. This demonstrates how SAR imagery enables reliable change detection even when optical imagery is limited by cloud cover.
+
 
 ---
 
