@@ -52,6 +52,7 @@ The goal was to design an open-source workflow that enables pre/post comparison 
     </td>
   </tr>
 </table>
+
 ### Interpreting the Results
 
 #### Context
