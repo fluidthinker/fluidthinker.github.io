@@ -53,6 +53,38 @@ The goal was to design an open-source workflow that enables pre/post comparison 
   </tr>
 </table>
 
+### Interpreting the Results
+
+**Context:** This comparison highlights flooding impacts from **Hurricane Harvey (2017)** near **Freeport, Texas** using Sentinel-1 SAR imagery.
+
+**Data:** Sentinel-1 SAR (VV/VH composite, shared stretch applied to both images)
+
+---
+
+#### What the colors represent
+
+- **Green tones** → Vegetation and stable land surfaces  
+- **Dark areas (black/blue)** → Water or low radar return  
+- **Purple / magenta tones** → Changes in radar backscatter (indicative of flooding, increased soil moisture, or surface disturbance)
+
+---
+
+#### What to look for
+
+- Focus on **coastal and low-lying areas** between the two images  
+- In the **post-event image**, notice the **increase in purple-toned regions**  
+- These areas reflect **changes in surface conditions**, consistent with flooding after Hurricane Harvey  
+
+---
+
+#### Key takeaway
+
+The post-event image shows expanded areas of radar backscatter variation along the coastline near Freeport, Texas, indicating flooding and surface water change following Hurricane Harvey. This demonstrates how **SAR imagery enables reliable change detection even when optical imagery is limited by cloud cover**.
+**Key takeaway:**
+The post-event image shows a clear increase in radar backscatter variation in coastal zones, suggesting environmental change that would not be easily observable using optical imagery alone.
+
+
+
 ## What I learned
 
 This project strengthened my understanding of radar-based remote sensing and how SAR data differs from optical imagery. It also reinforced the importance of building workflows that remain reliable under real-world constraints like cloud cover.
