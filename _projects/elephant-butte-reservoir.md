@@ -15,7 +15,7 @@ This project explores how satellite imagery can be used to monitor changes in su
 
 ## Project goal
 
-The goal was to measure and communicate lake change using a repeatable remote sensing workflow built in Python.
+The goal was to measure and communicate reservoir change using a repeatable remote sensing workflow built in Python.
 
 ## Data and tools
 
