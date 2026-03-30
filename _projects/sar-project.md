@@ -1,23 +1,4 @@
 ---
-title: "SAR Change Detection (Sentinel-1)"
-excerpt: "A radar-based workflow for detecting environmental change using Sentinel-1 SAR imagery."
-header:
-  teaser: /assets/images/sar-cover.jpg
----
-
-[View Project on GitHub](https://github.com/fluidthinker/opensar-conservation-monitor){: .btn .btn--primary}
-
-
----
-title: "Open-Source SAR Pre/Post Comparison — Sentinel-1"
-excerpt: "A radar-based workflow for detecting environmental change using Sentinel-1 SAR imagery."
-header:
-  teaser: /assets/images/sar-cover.jpg
----
-
-[View Project on GitHub](https://github.com/fluidthinker/opensar-conservation-monitor){: .btn .btn--primary}
-
----
 title: "Open-Source SAR Pre/Post Comparison — Sentinel-1"
 excerpt: "A radar-based workflow for detecting environmental change using Sentinel-1 SAR imagery."
 header:
