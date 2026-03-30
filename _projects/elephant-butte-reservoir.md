@@ -2,7 +2,7 @@
 title: "Remote Sensing of Surface Water Dynamics — Elephant Butte Reservoir"
 excerpt: "A remote sensing workflow for tracking surface water dynamics at Elephant Butte Reservoir."
 header:
-  teaser: /assets/images/elephant-butte-cover.jpg
+  teaser: /assets/images/elephant-butte-cover.png
   
  
 ---

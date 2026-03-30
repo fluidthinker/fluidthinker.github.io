@@ -9,7 +9,7 @@ header:
 intro:
   - excerpt: "I build geospatial data workflows and environmental analysis tools using Python, GIS, remote sensing, and spatial databases."
 feature_row:
-  - image_path: /assets/images/elephant-butte-cover.jpg
+  - image_path: /assets/images/elephant-butte-cover.png
     alt: "Remote Sensing of Surface Water Dynamics"
     title: "Remote Sensing of Surface Water Dynamics — Elephant Butte Reservoir"
     excerpt: "A remote sensing workflow for tracking surface water dynamics at Elephant Butte Reservoir."
