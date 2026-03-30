@@ -7,7 +7,7 @@ header:
  
 ---
 
-
+[View Project on GitHub](https://github.com/fluidthinker/openwater-shrinking-lake-monitor){: .btn .btn--primary}
 
 ## Why I built this
 
