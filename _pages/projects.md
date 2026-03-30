@@ -24,9 +24,9 @@ Detecting environmental change under cloud-constrained conditions using radar im
 
 ---
 
-### Trip Animation (PostGIS + Python)  
-A spatiotemporal visualization pipeline that transforms trip data into a time-based animated map using PostGIS and Python.  
-[View Project](/projects/trip-animation/)
+### Spatiotemporal Trip Visualization (PostGIS + Python)  
+A geospatial workflow that transforms trip records into a time-based animated map using PostGIS, SQL, and Python.  
+[View Project](/projects/trip-visualization/)
 
 ---
 
