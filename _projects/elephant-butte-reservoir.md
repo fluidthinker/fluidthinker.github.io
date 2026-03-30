@@ -37,7 +37,7 @@ The goal was to measure and communicate reservoir change using a repeatable remo
 ## Results
 
 
-![Shrinking Lake result](/assets/images/assets\images\story_sept_2019_2025_2000ms.gif)
+![Water Dynamics result](/assets/images/story_sept_2019_2025_2000ms.gif)
 September Surface Water Mask (2019–2025)
 
 
