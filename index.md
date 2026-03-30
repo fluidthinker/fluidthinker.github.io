@@ -10,10 +10,10 @@ intro:
   - excerpt: "I build geospatial data workflows and environmental analysis tools using Python, GIS, remote sensing, and spatial databases."
 feature_row:
   - image_path: /assets/images/shrinking-reservoir-cover.png
-    alt: "Shrinking Lake project"
-    title: "Shrinking Lake Monitor"
-    excerpt: "A remote sensing workflow for tracking surface water change over time."
-    url: /projects/shrinking-lake/
+    alt: "Remote Sensing of Surface Water Dynamics"
+    title: "Remote Sensing of Surface Water Dynamics — Elephant Butte Reservoir"
+    excerpt: "A remote sensing workflow for tracking surface water dynamics at Elephant Butte Reservoir."
+    url: /projects/elephant-butte-reservoir/
     btn_label: "View Project"
     btn_class: "btn--primary"
   - image_path: /assets/images/trip-animation-cover.png

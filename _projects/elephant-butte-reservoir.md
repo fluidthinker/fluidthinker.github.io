@@ -1,6 +1,6 @@
 ---
-title: "Shrinking Lake Monitor"
-excerpt: "A remote sensing workflow for tracking surface water change over time."
+title: "Remote Sensing of Surface Water Dynamics — Elephant Butte Reservoir"
+excerpt: "A remote sensing workflow for tracking surface water dynamics at Elephant Butte Reservoir."
 header:
   teaser: /assets/images/shrinking-lake-cover.jpg
 ---
