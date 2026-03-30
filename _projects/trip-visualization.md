@@ -9,10 +9,12 @@ header:
 
 ## Overview
 
-This project demonstrates how trip data can be transformed into a spatiotemporal visualization that reveals changing movement patterns over the course of a day. Using PostGIS, SQL, and Python, I built a reproducible workflow that aggregates trip starts by census tract and half-hour interval, renders individual map frames, and exports a polished animated output.
+## Overview
+## Overview
 
-The project focuses on showing how temporal and spatial patterns can be combined into a visual product that is both analytically useful and easy to interpret.
+This project demonstrates how bike-share trip data can be transformed into a spatiotemporal visualization that reveals how travel patterns shift throughout the day. The data represents bike rental stations where individual trips begin, with trip starts aggregated to census tracts and grouped into 30-minute time intervals.
 
+Using PostGIS and Python, I built a reproducible workflow that converts these trip start records into a sequence of consistent map frames, showing how activity intensifies and moves across the city over time.
 ---
 
 ## Project Objective
@@ -36,12 +38,17 @@ Design and implement a workflow that:
 
 ## Workflow
 
-1. Identify the time periods to visualize.
-2. Join trip records to spatial reference data.
-3. Aggregate trip starts by census tract and half-hour interval in PostGIS.
-4. Render one map frame per time interval in Python.
-5. Apply consistent layout, legend, and geographic extent across all frames.
-6. Export the frames into a polished animated GIF.
+## Workflow
+
+1. Identify the analysis period and define 30-minute time intervals.
+2. Join trip origin records to bike station locations.
+3. Perform a spatial join to assign each station to a census tract using PostGIS.
+4. Aggregate trip starts by census tract and time interval using SQL.
+5. Export aggregated results for use in Python-based visualization.
+6. Generate one map frame per time interval using GeoPandas and Matplotlib.
+7. Apply consistent map extent, legend, and styling across all frames.
+8. Compile frames into a final animated GIF using Pillow (PIL).
+
 
 ## Results
 
