@@ -7,15 +7,21 @@ header:
 
 [View Project on GitHub](https://github.com/fluidthinker/opensar-conservation-monitor){: .btn .btn--primary}
 
-## Why I built this
+## Overview
 
-Optical satellite imagery is often limited by cloud cover, especially in regions where environmental monitoring is most critical. I wanted to explore how Synthetic Aperture Radar (SAR) data could be used as a reliable alternative for detecting change over time.
+This project demonstrates how Synthetic Aperture Radar (SAR) imagery can be used to detect environmental change in conditions where optical imagery is unreliable. Using Sentinel-1 data, I built a reproducible workflow to compare pre- and post-event conditions and identify surface changes associated with flooding.
 
-This project focuses on using Sentinel-1 SAR imagery to compare conditions before and after an event or time period, with an emphasis on building a clear and reproducible workflow.
+The analysis focuses on Hurricane Harvey (2017) near Freeport, Texas, where persistent cloud cover limited the effectiveness of traditional optical satellite imagery.
 
-## Project goal
+---
 
-The goal was to design an open-source workflow that enables pre/post comparison using SAR data, allowing users to identify changes in surface conditions regardless of weather or lighting constraints.
+## Project Objective
+
+Design and implement a Python-based workflow for SAR change detection that:
+
+- Compares pre- and post-event Sentinel-1 imagery  
+- Highlights differences in radar backscatter associated with surface water and land change  
+- Produces clear, interpretable visual outputs for analysis and communication  
 
 ## Data and tools
 
