@@ -24,8 +24,8 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
   - image_path: /assets/images/sars-cover.jpg
-    alt: "SARS project"
-    title: "SARS Data Project"
+    alt: "SAR project"
+    title: "SAR Data Project"
     excerpt: "A data-focused project highlighting analysis, structure, and interpretation."
     url: /projects/sars-project/
     btn_label: "View Project"
