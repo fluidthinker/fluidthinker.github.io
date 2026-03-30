@@ -27,7 +27,7 @@ feature_row:
     alt: "SAR project"
     title: "SAR Data Project"
     excerpt: "A data-focused project highlighting analysis, structure, and interpretation."
-    url: /projects/sars-project/
+    url: /projects/sar-project/
     btn_label: "View Project"
     btn_class: "btn--primary"
 
