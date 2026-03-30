@@ -35,9 +35,23 @@ The goal was to design an open-source workflow that enables pre/post comparison 
 
 ## Results
 
-Add your main SAR output image here.
 
-![SAR result](/assets/images/sar-cover.jpg)
+<p>Pre- and post-event SAR imagery comparison:</p>
+
+<table>
+  <tr>
+    <th>Pre-Event</th>
+    <th>Post-Event</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="/assets/images/pre_rg_shared.png" alt="Pre-event SAR composite" width="420">
+    </td>
+    <td>
+      <img src="/assets/images/sars-cover.jpg" alt="Post-event SAR composite" width="420">
+    </td>
+  </tr>
+</table>
 
 ## What I learned
 
