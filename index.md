@@ -24,8 +24,8 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
   - image_path: /assets/images/sars-cover.jpg
-    alt: "SAR project"
-    title: "SAR Data Project"
+    alt: "SAR Change Detection project"
+    title: "SAR Change Detection (Sentinel-1)"
     excerpt: "A data-focused project highlighting analysis, structure, and interpretation."
     url: /projects/sar-project/
     btn_label: "View Project"
