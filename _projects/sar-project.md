@@ -7,25 +7,6 @@ header:
 
 [View Project on GitHub](https://github.com/fluidthinker/opensar-conservation-monitor){: .btn .btn--primary}
 
-
----
-title: "Open-Source SAR Pre/Post Comparison — Sentinel-1"
-excerpt: "A radar-based workflow for detecting environmental change using Sentinel-1 SAR imagery."
-header:
-  teaser: /assets/images/sar-cover.jpg
----
-
-[View Project on GitHub](https://github.com/fluidthinker/opensar-conservation-monitor){: .btn .btn--primary}
-
----
-title: "Open-Source SAR Pre/Post Comparison — Sentinel-1"
-excerpt: "A radar-based workflow for detecting environmental change using Sentinel-1 SAR imagery."
-header:
-  teaser: /assets/images/sar-cover.jpg
----
-
-[View Project on GitHub](https://github.com/fluidthinker/opensar-conservation-monitor){: .btn .btn--primary}
-
 ## Why I built this
 
 Optical satellite imagery is often limited by cloud cover, especially in regions where environmental monitoring is most critical. I wanted to explore how Synthetic Aperture Radar (SAR) data could be used as a reliable alternative for detecting change over time.
@@ -54,9 +35,23 @@ The goal was to design an open-source workflow that enables pre/post comparison 
 
 ## Results
 
-Add your main SAR output image here.
 
-![SAR result](/assets/images/sar-cover.jpg)
+<p>Pre- and post-event SAR imagery comparison:</p>
+
+<table>
+  <tr>
+    <th>Pre-Event</th>
+    <th>Post-Event</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="/assets/images/pre_rg_shared.png" alt="Pre-event SAR composite" width="420">
+    </td>
+    <td>
+      <img src="/assets/images/sars-cover.jpg" alt="Post-event SAR composite" width="420">
+    </td>
+  </tr>
+</table>
 
 ## What I learned
 
