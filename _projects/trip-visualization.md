@@ -12,6 +12,9 @@ header:
 This project demonstrates how bike-share trip data can be transformed into a spatiotemporal visualization that reveals how travel patterns shift throughout the day. The data represents bike rental stations where individual trips begin, with trip starts aggregated to census tracts and grouped into 30-minute time intervals.
 
 Using PostGIS and Python, I built a reproducible workflow that converts these trip start records into a sequence of consistent map frames, showing how activity intensifies and moves across the city over time.
+
+
+
 ---
 
 ## Project Objective
