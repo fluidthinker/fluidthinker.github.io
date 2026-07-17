@@ -124,9 +124,6 @@ The deployed dashboard allows users to:
 Dashboard](https://dane-county-park-access.streamlit.app/){: .btn
 .btn--primary}
 
-![Dane County Park Access
-Dashboard](/assets/images/park-access-dashboard.png)
-
 ## Key Findings
 
 -   Park access varies substantially across Dane County census tracts.
