@@ -12,6 +12,14 @@ A curated selection of work in remote sensing, spatial analytics, data engineeri
 
 ## Featured Work
 
+### Dane County Park Access Analysis
+
+An end-to-end geospatial data application exploring park accessibility across Dane County using PostGIS, GeoParquet, DuckDB, Folium, and Streamlit.
+[View Project](/projects/park-access/)
+
+---
+
+
 ### Remote Sensing of Surface Water Dynamics — Elephant Butte Reservoir  
 Tracking changes in reservoir extent over time using Sentinel-2 imagery and Python-based raster workflows.  
 [View Project](/projects/elephant-butte-reservoir/)
