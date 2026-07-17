@@ -14,6 +14,8 @@ title: Dane County Park Access Analysis
 GitHub](https://github.com/fluidthinker/postgis-park-access){: .btn
 .btn--inverse}
 
+![Dane County Park Access Dashboard](/assets/images/park-access-cover.jpg)
+
 ## Overview
 
 This project explores how access to parks varies across census tracts in
