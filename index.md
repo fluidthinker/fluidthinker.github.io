@@ -30,8 +30,14 @@ feature_row:
     url: /projects/sar-project/
     btn_label: "View Project"
     btn_class: "btn--primary"
-
-
+feature_row2:
+  - image_path: /assets/images/park-access-cover.jpg
+    alt: "Dane County Park Access Analysis dashboard"
+    title: "Dane County Park Access Analysis"
+    excerpt: "An end-to-end geospatial data application exploring park accessibility using PostGIS, GeoParquet, DuckDB, Folium, and Streamlit."
+    url: /projects/park-access/
+    btn_label: "View Project"
+    btn_class: "btn--primary"
 ---
 
 ## About this portfolio
