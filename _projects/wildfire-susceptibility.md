@@ -92,18 +92,23 @@ flowchart TD
     E --> F1[Logistic Regression]
     E --> F2[Random Forest]
 
-    F1 --> G[Random vs. Spatial<br/>Cross-Validation]
+    F1 --> G[Compare Random and Spatial<br/>Cross-Validation]
     F2 --> G
 
-    G --> H[Independent Eastern<br/>Geographic Holdout]
+    G --> H[Tune Random Forest<br/>Using Spatial CV]
 
-    H --> I[Holdout Diagnostics]
+    H --> I[Test the Model in a Part<br/>of New Mexico It Had Not Seen]
 
-    I --> J[Final Statewide<br/>Model Fit]
+    I --> J[Compare That Test Area<br/>with the Training Area]
 
-    J --> K[Model-Estimated<br/>Susceptibility Surface]
+    J --> K[Interpret the Differences<br/>and Model Limitations]
 
-    K --> L[Interactive Folium Map]
+    K --> L[Fit Final Statewide Model<br/>Using All Labeled Cells]
+
+    L --> M[Create Statewide<br/>Susceptibility Surface]
+
+    M --> N[Build Interactive<br/>Wildfire Susceptibility Map]
+
 ```
 
 The final modeling dataset contained more than **313,000 labeled 1-km cells**. An additional set of target-ambiguous cells was excluded during model development but later received susceptibility estimates when the final statewide surface was created.
