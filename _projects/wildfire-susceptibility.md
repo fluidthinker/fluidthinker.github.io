@@ -19,7 +19,7 @@ I built a statewide geospatial machine-learning workflow to test whether pattern
 
 The project combines multiple raster and vector datasets into a common 1-km analysis grid, builds a supervised-learning dataset, compares Logistic Regression and Random Forest models, and evaluates how model performance changes under increasingly demanding forms of geographic validation.
 
-The most important result was not the highest model score. It was discovering how strongly the apparent performance depended on **where and how the model was tested**.
+The most important result was not the highest model score. It was finding that model performance changed substantially depending on whether the model was tested on locations similar to those it had already seen or on a geographically separate part of New Mexico. Random cross-validation made the model look very strong, while spatial validation and the final geographic test revealed much weaker transfer to new areas.
 
 ## Research Question
 
@@ -246,7 +246,7 @@ The result suggested that modest changes to Random Forest complexity were **not 
 
 Several limitations are important when interpreting this project:
 
-- The target represents historical MTBS-mapped wildfire occurrence during the selected study period rather than all wildfire activity.
+- The target identifies whether a 1-km cell intersected an MTBS-mapped wildfire from 2017–2022. MTBS does not represent every wildfire, so cells labeled “unburned” mean no mapped MTBS fire during that study period, not that fire has never occurred there.
 - The predictors emphasize relatively stable environmental characteristics rather than dynamic fire-weather conditions.
 - Human ignition and accessibility variables were intentionally excluded from the project scope.
 - Only one independent geographic holdout region was evaluated.
@@ -271,7 +271,7 @@ Even spatial cross-validation did not reproduce the difficulty of the independen
 
 That reinforced an important lesson:
 
-> **How a spatial model is validated can be as important as which algorithm is used.**
+> **Choosing a good algorithm matters, but so does testing it in a way that reflects where the model will actually be used.**
 
 ### Tuning cannot fix every problem
 
